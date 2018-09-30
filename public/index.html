@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Site Scraper</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body class="container">
+    <h3 class="header">Site Scraper</h3>
+
+<!-- <form method="POST" action="/submit">
+    <input type="text" name="username">name</input>
+
+</form> -->
+
+<div id="articles"></div>
+
+<form action="" method="post">
+  <input type="hidden" name="action" value="submit" />
+  <select name="name">
+      <option>John</option>
+      <option>Henry</option>
+  <select>
+<!-- 
+make sure all html elements that have an ID are unique and name the buttons submit 
+-->
+  <input id="tea-submit" type="submit" name="submit" value="Tea">
+  <input id="coffee-submit" type="submit" name="submit" value="Coffee">
+</form>
+
+
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
